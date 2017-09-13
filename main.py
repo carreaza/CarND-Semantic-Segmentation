@@ -155,7 +155,7 @@ def run():
     num_classes = 2
     image_shape = (160, 576)
     epochs = 10
-    batch_size = 20
+    batch_size = 5
     # correct_label = tf.placeholder(tf.float32, shape=[None, image_shape[0], image_shape[1], 2])
     # learning_rate = tf.placeholder(tf.float32, shape=[])
 
